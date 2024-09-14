@@ -1,0 +1,33 @@
+
+footer {
+    /* background-image: url(../charityimg/foot-bg.jpg); */
+    /* opacity: 0.2; */
+    /* height: 100vh; */
+    background-color: #000000;
+ }
+ 
+ .footer-txt p {
+    font-size: 17px;
+    line-height: 25px;
+ }
+ 
+ ul li {
+    list-style: none;
+    line-height: 30px;
+ }
+ 
+ .footer-icon i {
+    font-size: 15px;
+    color: orangered;
+ }
+ 
+ .footer-txt i {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 10px;
+ }
+ 
+ .footer-txt i:hover {
+    color: orangered;
+ }
+ 

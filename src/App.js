@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from './layout/Footer';
+import Header from './layout/Header';
+import Home from './pages/Home';
+import React from 'react';
+import './assets/css/style.css'
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Counter from './pages/Counter';
+import ClassSate from './pages/ClassState';
+import UseEffectHook from './pages/UseEffectHook';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <Header></Header>
+    {/* <Home></Home> */}
+    {/* <About></About> */}
+    {/* <Contact></Contact> */}
+    {/* <Counter></Counter> */}
+    {/* <ClassSate></ClassSate> */}
+    <UseEffectHook></UseEffectHook>
+   <Footer></Footer>
+   </>
   );
 }
 
